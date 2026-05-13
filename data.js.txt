@@ -1,0 +1,21 @@
+const technologies = [
+  {
+    title: "Inteligencia Artificial",
+    description: "La inteligencia artificial (IA) es una rama de la informática que permite a máquinas y sistemas simular la inteligencia humana para realizar tareas como razonar, aprender, solucionar problemas y tomar decisiones."
+  },
+
+  {
+    title: "Robótica",
+    description: "La robótica combina ingeniería, electrónica e inteligencia artificial para diseñar y construir robots capaces de realizar tareas automatizadas."
+  },
+
+  {
+    title: "Biotecnología",
+    description: "La biotecnología utiliza organismos vivos y sistemas biológicos para crear soluciones en salud, agricultura, industria y medio ambiente."
+  },
+
+  {
+    title: "Armas Tecnológicas",
+    description: "Las armas tecnológicas modernas utilizan inteligencia artificial, drones, energía dirigida y sistemas avanzados para operaciones de defensa y seguridad."
+  }
+];

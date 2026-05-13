@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CyberTech</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="bg-grid"></div>
+<div class="glow glow1"></div>
+<div class="glow glow2"></div>
+
+<header>
+  <h1>CYBERTECH</h1>
+  <p>Tecnologías del futuro</p>
+</header>
+
+<section class="search-container">
+  <input type="text" id="searchInput" placeholder="Buscar tecnología...">
+</section>
+
+<section id="cardsContainer" class="cards"></section>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

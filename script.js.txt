@@ -1,0 +1,30 @@
+const cardsContainer = document.getElementById('cardsContainer');
+const searchInput = document.getElementById('searchInput');
+
+function renderCards(data) {
+  cardsContainer.innerHTML = '';
+
+  data.forEach(item => {
+    const card = document.createElement('div');
+    card.classList.add('card');
+
+    card.innerHTML = `
+      <h2>${item.title}</h2>
+      <p>${item.description}</p>
+    `;
+
+    cardsContainer.appendChild(card);
+  });
+}
+
+renderCards(technologies);
+
+searchInput.addEventListener('input', (e) => {
+  const value = e.target.value.toLowerCase();
+
+  const filtered = technologies.filter(item =>
+    item.title.toLowerCase().includes(value)
+  );
+
+  renderCards(filtered);
+});
